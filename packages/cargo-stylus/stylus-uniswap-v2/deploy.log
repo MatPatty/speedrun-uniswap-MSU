@@ -1,0 +1,81 @@
+Checking for wasm32-unknown-unknown target...
+Checking connection to Arbitrum Sepolia...
+Connected to Arbitrum Sepolia!
+Deployer address: 0xb4BafA32620D2E829e64e1684290f906e1a39783
+Deploying first ERC20 token contract (Token0) to Arbitrum Sepolia...
+Token0 contract deployed at address: 0x3acbe6cb359f1caba9a4dc74c319173909fddcb6
+Token0 transaction hash: 0x623c9b4c40e2bd088e911b8b8c255ffe72524f64fff816dec12e2debe07b7ec7
+Deploying second ERC20 token contract (Token1) to Arbitrum Sepolia...
+Token1 contract deployed at address: 0x2730d16db378872bc11033a4ee1fd40cc1db86b4
+Token1 transaction hash: 0x2f9a776e1b7aef5a9b670b38e2a8ccbee175c0d54b5d4e063063b3a94040f8bc
+Minting tokens for testing...
+
+blockHash            0x567601870bfa60354a784068fe045bd8ce980a5ce20d1cbb174c4fef32bbe77a
+blockNumber          183887320
+contractAddress      
+cumulativeGasUsed    523182
+effectiveGasPrice    100000000
+from                 0xb4BafA32620D2E829e64e1684290f906e1a39783
+gasUsed              72439
+logs                 [{"address":"0x3acbe6cb359f1caba9a4dc74c319173909fddcb6","topics":["0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef","0x0000000000000000000000000000000000000000000000000000000000000000","0x000000000000000000000000b4bafa32620d2e829e64e1684290f906e1a39783"],"data":"0x00000000000000000000000000000000000000000000003635c9adc5dea00000","blockHash":"0x567601870bfa60354a784068fe045bd8ce980a5ce20d1cbb174c4fef32bbe77a","blockNumber":"0xaf5e5d8","transactionHash":"0x6166ef6033b8b1c96564494c165cc9022b78fe424687fd1c989d41aed9b5c704","transactionIndex":"0x5","logIndex":"0x10","removed":false}]
+logsBloom            0x000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080000000000000000000000040000000000000000000000000200000000000000000008000004000000000000001000100000000000000200000000000000000000000000000000000000000000
+blockHash            0x567601870bfa60354a784068fe045bd8ce980a5ce20d1cbb174c4fef32bbe77a
+blockNumber          183887320
+contractAddress      
+cumulativeGasUsed    523182
+effectiveGasPrice    100000000
+from                 0xb4BafA32620D2E829e64e1684290f906e1a39783
+gasUsed              72439
+logs                 [{"address":"0x3acbe6cb359f1caba9a4dc74c319173909fddcb6","topics":["0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef","0x0000000000000000000000000000000000000000000000000000000000000000","0x000000000000000000000000b4bafa32620d2e829e64e1684290f906e1a39783"
+blockHash            0x8eb19bffe3c732816a34f8fa1076bc1320d382972d9da01fcc4e9a25a9974446
+blockNumber          183887334
+contractAddress      
+cumulativeGasUsed    857402
+effectiveGasPrice    100000000
+from                 0xb4BafA32620D2E829e64e1684290f906e1a39783
+gasUsed              72439
+logs                 [{"address":"0x2730d16db378872bc11033a4ee1fd40cc1db86b4","topics":["0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef","0x0000000000000000000000000000000000000000000000000000000000000000","0x000000000000000000000000b4bafa32620d2e829e64e1684290f906e1a39783"],"data":"0x00000000000000000000000000000000000000000000003635c9adc5dea00000","blockHash":"0x8eb19bffe3c732816a34f8fa1076bc1320d382972d9da01fcc4e9a25a9974446","blockNumber":"0xaf5e5e6","transactionHash":"0x6b914e67ec37af1dff3a71646837929103be9ce273208b53001aa62a0cbe2d3e","transactionIndex":"0x7","logIndex":"0x17","removed":false}]
+logsBloom            0x000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002000000000080000000000000000000000040000000000000000000000000200000000000000000008000000000000000000000000100000000000000200000000000040000000000000000000000000000000
+blockHash            0x8eb19bffe3c732816a34f8fa1076bc1320d382972d9da01fcc4e9a25a9974446
+blockNumber          183887334
+contractAddress      
+cumulativeGasUsed    857402
+effectiveGasPrice    100000000
+from                 0xb4BafA32620D2E829e64e1684290f906e1a39783
+gasUsed              72439
+logs                 [{"address":"0x2730d16db378872bc11033a4ee1fd40cc1db86b4","topics":["0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef","0x0000000000000000000000000000000000000000000000000000000000000000","0x000000000000000000000000b4bafa32620d2e829e64e1684290f906e1a39783"Tokens minted to deployer address.
+Deploying the Uniswap V2 contract to Arbitrum Sepolia using cargo stylus...
+Uniswap V2 contract deployed successfully!
+Transaction hash: 0x61c596f357cc1f6e48aad89b922044188ec7d3524cc587d13697c2613218e4c2
+Uniswap V2 contract address: 0xb08ee6d40fce64fe1a03a701205d1bc73a86228e
+Deployment info saved to build/stylus-deployment-info.json
+Deployment completed successfully on Arbitrum Sepolia!
+Summary of deployed contracts:
+- Token0: 0x3acbe6cb359f1caba9a4dc74c319173909fddcb6
+- Token1: 0x2730d16db378872bc11033a4ee1fd40cc1db86b4
+- Uniswap V2: 0xb08ee6d40fce64fe1a03a701205d1bc73a86228e
+000000000004000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002000000000000000080000000000000000000000000000000000020000000000000000000080000000000000000000000000000000000000000000000
+root                 
+status               1 (success)
+transactionHash      0x6b914e67ec37af1dff3a71646837929103be9ce273208b53001aa62a0cbe2d3e
+transactionIndex     7
+type                 2
+blobGasPrice         
+blobGasUsed          
+to                   0x2730D16dB378872bc11033a4Ee1fd40cc1DB86b4
+gasUsedForL1         128
+l1BlockNumber        8982010
+timeboosted          false
+
+Tokens minted to deployer address.
+Deploying the Uniswap V2 contract to Arbitrum Sepolia using cargo stylus...
+Uniswap V2 contract deployed successfully!
+Transaction hash: 0x61c596f357cc1f6e48aad89b922044188ec7d3524cc587d13697c2613218e4c2
+Uniswap V2 contract address: 0xb08ee6d40fce64fe1a03a701205d1bc73a86228e
+Deployment info saved to build/stylus-deployment-info.json
+Deployment completed successfully on Arbitrum Sepolia!
+Summary of deployed contracts:
+- Token0: 0x3acbe6cb359f1caba9a4dc74c319173909fddcb6
+- Token1: 0x2730d16db378872bc11033a4ee1fd40cc1db86b4
+- Uniswap V2: 0xb08ee6d40fce64fe1a03a701205d1bc73a86228e
+Deployment completed successfully!
